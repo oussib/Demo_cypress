@@ -1,0 +1,16 @@
+{
+  "name": "demo_cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.0.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
