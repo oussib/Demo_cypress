@@ -7,10 +7,11 @@ module.exports = defineConfig({
     },
     reporter: "mochawesome",
     reporterOptions: {
-      reportDir: "results",       // Dossier où seront stockés les résultats
+      reportDir: "cypress/reports/html",       // Dossier où seront stockés les résultats
       overwrite: false,           // Ne pas écraser les rapports précédents
-      html: false,                // Ne pas générer de fichier HTML
-      json: true                  // Générer un fichier JSON
+      html: true,                // générer de fichier HTML                               
+      json: true,
+      charts: true                   // Générer un fichier JSON
     }
   }
 });
